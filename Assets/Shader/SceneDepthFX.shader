@@ -17,6 +17,9 @@
 			sampler2D _CameraDepthTexture;
 
 			fixed4 frag(v2f_img i) : COLOR {
+				#if UNITY_UV_STARTS_AT_TOP
+				i.uv.y = 1 - i.uv.y;
+				#endif
 				float d = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv.xy));
 				d = pow(Linear01Depth(d), _DepthPower);
 
