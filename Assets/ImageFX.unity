@@ -317,6 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurShader: {fileID: 4800000, guid: df1f891a405a8ae4eb3f2cbd6fc58a0c, type: 3}
   vignetteTexture: {fileID: 2800000, guid: 264483820fb72534cb0486a3d235b5aa, type: 3}
+  blendMode: 0
   VignetteAmount: 1
 --- !u!1 &1096132976
 GameObject:
