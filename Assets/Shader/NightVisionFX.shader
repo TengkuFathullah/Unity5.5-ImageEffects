@@ -1,4 +1,4 @@
-﻿Shader "TFTM/ImageEffect/VignetteFX" {
+﻿Shader "TFTM/ImageEffect/NightVisionFX" {
 	Properties {
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_Vignette("Vignette Texture", 2D) = "white" {}
