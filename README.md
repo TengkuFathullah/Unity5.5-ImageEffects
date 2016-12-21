@@ -4,7 +4,9 @@ Unity3D Camera Effect
 1. Grayscale
 2. CameraDepth
 3. BSC(Brightness,Saturation,Contrast)
-4. Vignette
+4. Vignette (Blendmode-Runtime)
+5. Night Vision
+6. ColorFX (Sepia)
 
 Custom shader include "BlendMode.cginc" which provide blend mode function.
 - Darken
@@ -24,4 +26,4 @@ Custom shader include "BlendMode.cginc" which provide blend mode function.
 - Difference
 - Exclusion
 
-PS: Change to appropiate blend function `fixed4 finalColor = Overlay(renderTex, vignette);`
+PS: You can change blendmode for vignette shader on run time through script.
